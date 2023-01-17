@@ -1,0 +1,72 @@
+main{
+  width: 100%;
+}
+
+.textarea{
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 42vh;
+  min-height: 42vh;
+  padding: 20px;
+  background: rgba(0, 0, 0, .5);
+  font-family: var(--tipografiaParrafo);
+  font-size: var(--tamanoParrafo);
+  color: var(--colorTexto);
+  border: 2px solid transparent;
+  border-radius: 15px;
+  overflow: hidden;
+  resize: none;
+  text-align: justify;
+}
+
+.textarea:focus-visible{
+  background: rgba(34, 42, 52, .8);
+  border-color: #58a6ff;
+  outline: none;
+  box-shadow: inset 0 0 0 1px #58a6ff;
+}
+
+.icono{
+  fill: #fff;
+  margin-right: 20px;
+}
+
+.alerta{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+  font-family: var(--tipografiaParrafo);
+}
+
+.botones{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnPrimario{
+  background: var(--fondoBtnPrimario);
+  border: 2px solid transparent;
+  border: none;
+  color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
+}
+
+.btnPrimario:hover{
+  filter: drop-shadow(0 0px 4px rgba(0, 128, 255, 0.337));
+  font-weight: bold;
+  background: #117cee;
+}
+
+#borrar{
+  background: #ff0000;
+}
+
+#borrar:hover{
+  filter: drop-shadow(0 0px 4px rgba(255, 0, 0, 0.337));
+}

@@ -1,0 +1,77 @@
+@import url(./header.css) all;
+@import url(./main.css) all;
+@import url(./aside.css) all;
+
+:root{
+  --fondoBtnPrimario: #0D6EFD;
+  --fondoBtnSecundario: rgba(0, 0, 0, .5);
+  --tipografiaBtn: "Poppins";
+  --tamanoTextoBtn: 0.875rem  /*14px en Escritorio*/;
+  --colorTexto: #fff;
+  --tipografiaParrafo: "Montserrat";
+  --tamanoParrafo: 1.125rem   /*18px en Escritorio*/;
+  --sombra: 0px 1px 5px rgb(0 0 0 / 50%);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 16px;
+  color: #fff;
+}
+
+body{
+  background: #000 url(../img/bg.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.home{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 0;
+  display: grid;
+  grid-template-columns: 63% 35%;
+  gap: 20px;
+}
+
+.caja{
+  background: rgba(0, 0, 0, .8);
+  border-radius: 15px;
+  box-shadow: var(--sombra);
+  padding: 20px;
+}
+
+.contenedor{
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.btn{
+  font-family: var(--tipografiaBtn);
+  font-size: var(--tamanoTextoBtn);
+  border-radius: 7px;
+  width: 200px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #202124;
+	border-radius: 10px;
+	border: 1px solid #000;
+}
+

@@ -1,0 +1,21 @@
+header{
+  background: #007FFF;
+  box-shadow: var(--sombra);
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h1{
+  font-family: var(--tipografiaParrafo);
+  font-size: 1.562rem;         /*25px en Escritorio*/
+  color: var(--colorTexto);
+  text-align: center;
+}
+
+.autor{
+  font-family: var(--tipografiaParrafo);
+  font-size: var(--tamanoParrafo);
+  color: var(--colorTexto);
+  text-align: right;
+}
