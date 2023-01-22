@@ -13,9 +13,15 @@ h1{
   text-align: center;
 }
 
-.autor{
+.pie{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.p{
   font-family: var(--tipografiaParrafo);
   font-size: var(--tamanoParrafo);
   color: var(--colorTexto);
-  text-align: right;
 }

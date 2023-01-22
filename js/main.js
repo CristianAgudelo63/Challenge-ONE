@@ -76,10 +76,12 @@ const DesencriptarMensaje = () =>{
 
 Encriptar.addEventListener("click", () =>{
   EncriptarMensaje();
+  Parrafos.children[1].remove();
 });
 
 Desencriptar.addEventListener("click", () => {
   DesencriptarMensaje();
+  Parrafos.children[1].remove();
 });
 
 Borrar.addEventListener("click", () =>{
